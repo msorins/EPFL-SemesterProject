@@ -1,3 +1,27 @@
 [
-
+  {
+    "libraryIdentifier" : "8540e455e5fee0c4a20eb00a96723bdc",
+    "format" : "model",
+    "displayName" : "1226 Moon.usdz"
+  },
+  {
+    "libraryIdentifier" : "d91a9b3baec9af5fde914abadf261b04",
+    "format" : "model",
+    "displayName" : "moons.usdz"
+  },
+  {
+    "libraryIdentifier" : "057d0383a7a8dea55343a31282ff7023",
+    "format" : "model",
+    "displayName" : "EarthModeeel.usdz"
+  },
+  {
+    "libraryIdentifier" : "4d0a89e20efe0d86d7351cf127cbea66",
+    "format" : "model",
+    "displayName" : "Earth_with_Mountains_and_Atmosphere.usdz"
+  },
+  {
+    "libraryIdentifier" : "b6ee915ed01c357965d25f68efed3607",
+    "format" : "model",
+    "displayName" : "Moon.usdz"
+  }
 ]
