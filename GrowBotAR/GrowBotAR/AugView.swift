@@ -18,7 +18,7 @@ struct AugView: UIViewRepresentable {
         let arView = ARView(frame: .zero)
         
         // Load the "Box" scene from the "Experience" Reality File
-        let boxAnchor = try! Experience.loadBox()
+        let boxAnchor = try! Experience.loadPlanets()
 //        boxAnchor.transform.rotation = simd_quatf(angle: .pi,axis: [0, 1, 0])
 //        boxAnchor.move(to: boxAnchor.transform, relativeTo: nil, duration: 10)
         
