@@ -10,7 +10,7 @@ import Foundation
 import SwiftUI
 import RealityKit
 
-struct ARViewContainer: UIViewRepresentable {
+struct AugView: UIViewRepresentable {
     
     func makeUIView(context: Context) -> ARView {
         
@@ -31,9 +31,9 @@ struct ARViewContainer: UIViewRepresentable {
 }
 
 #if DEBUG
-struct ARViewContainer_Previews : PreviewProvider {
+struct AugView_Previews : PreviewProvider {
     static var previews: some View {
-        ARViewContainer()
+        AugView()
     }
 }
 #endif

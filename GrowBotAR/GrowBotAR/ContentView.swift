@@ -10,60 +10,25 @@ import SwiftUI
 import RealityKit
 
 struct ContentView : View {
-    var body: some View {
-        return HomeContainer().padding(0.0).edgesIgnoringSafeArea(.all)
-    }
-}
-
-struct HomeContainer: View {
+    @ObservedObject var viewRouter: ViewRouter
     
     var body: some View {
-        GeometryReader { metrics in
-            VStack {
-                Spacer()
-                
-                VStack {
-                    Text("GrowBot AR")
-                        .font(.largeTitle)
-                        .fontWeight(.light)
-                        .multilineTextAlignment(.center)
-                        .colorScheme(.light)
-                    
-                    Button(action: {
-                        
-                    }, label: {
-                        Image(systemName: "arrowtriangle.right.circle")
-                        Text("Start the experience")
-                    })
-                        .foregroundColor(Color.white)
-                        .padding()
-                        .background(Color.blue.opacity(0.9))
-                        .cornerRadius(5)
-                }
-                .frame(width: metrics.size.width * 0.60)
-                .padding(25)
-                .background(Color.white.opacity(0.7))
-                .cornerRadius(5)
-                
-                
-                
-                Spacer()
+        VStack {
+            if viewRouter.currentPage == "home" {
+                HomeView(viewRouter: viewRouter)
+            } else if viewRouter.currentPage == "aug" {
+                AugView()
             }
-            .background(
-                Image("cover")
-                    .resizable()
-                    .scaledToFill()
-            )
-                .scaledToFill()
         }
+        .padding(0.0)
+        .edgesIgnoringSafeArea(.all)
     }
     
 }
 
-#if DEBUG
-struct ContentView_Previews : PreviewProvider {
+
+struct Content_Previews : PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView(viewRouter: ViewRouter())
     }
 }
-#endif
