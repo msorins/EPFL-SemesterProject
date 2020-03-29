@@ -11,13 +11,14 @@ import RealityKit
 
 struct ContentView : View {
     @ObservedObject var viewRouter: ViewRouter
+    @State var test: String = "Hi"
     
     var body: some View {
         VStack {
             if viewRouter.currentPage == "home" {
                 HomeView(viewRouter: viewRouter)
             } else if viewRouter.currentPage == "aug" {
-                AugView()
+                ARViewContainer(overlayText: $test)
             }
         }
         .padding(0.0)

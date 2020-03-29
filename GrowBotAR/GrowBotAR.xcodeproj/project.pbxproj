@@ -13,7 +13,7 @@
 		D30E17DF242EEE980062E8CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D30E17DE242EEE980062E8CA /* Assets.xcassets */; };
 		D30E17E2242EEE980062E8CA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D30E17E1242EEE980062E8CA /* Preview Assets.xcassets */; };
 		D30E17E5242EEE980062E8CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D30E17E3242EEE980062E8CA /* LaunchScreen.storyboard */; };
-		D39E23A3242FC81200B44F4A /* AugView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39E23A2242FC81200B44F4A /* AugView.swift */; };
+		D39E23A3242FC81200B44F4A /* ARViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39E23A2242FC81200B44F4A /* ARViewContainer.swift */; };
 		D39E23A524302F2800B44F4A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39E23A424302F2800B44F4A /* HomeView.swift */; };
 		D39E23A7243030DD00B44F4A /* ViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39E23A6243030DD00B44F4A /* ViewRouter.swift */; };
 /* End PBXBuildFile section */
@@ -27,7 +27,7 @@
 		D30E17E1242EEE980062E8CA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D30E17E4242EEE980062E8CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D30E17E6242EEE980062E8CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D39E23A2242FC81200B44F4A /* AugView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AugView.swift; sourceTree = "<group>"; };
+		D39E23A2242FC81200B44F4A /* ARViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewContainer.swift; sourceTree = "<group>"; };
 		D39E23A424302F2800B44F4A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		D39E23A6243030DD00B44F4A /* ViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewRouter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -65,7 +65,7 @@
 				D30E17D8242EEE950062E8CA /* AppDelegate.swift */,
 				D39E23A6243030DD00B44F4A /* ViewRouter.swift */,
 				D30E17DA242EEE950062E8CA /* ContentView.swift */,
-				D39E23A2242FC81200B44F4A /* AugView.swift */,
+				D39E23A2242FC81200B44F4A /* ARViewContainer.swift */,
 				D39E23A424302F2800B44F4A /* HomeView.swift */,
 				D30E17DC242EEE950062E8CA /* Experience.rcproject */,
 				D30E17DE242EEE980062E8CA /* Assets.xcassets */,
@@ -157,7 +157,7 @@
 			files = (
 				D30E17DB242EEE950062E8CA /* ContentView.swift in Sources */,
 				D39E23A524302F2800B44F4A /* HomeView.swift in Sources */,
-				D39E23A3242FC81200B44F4A /* AugView.swift in Sources */,
+				D39E23A3242FC81200B44F4A /* ARViewContainer.swift in Sources */,
 				D39E23A7243030DD00B44F4A /* ViewRouter.swift in Sources */,
 				D30E17D9242EEE950062E8CA /* AppDelegate.swift in Sources */,
 				D30E17DD242EEE950062E8CA /* Experience.rcproject in Sources */,
