@@ -37,10 +37,10 @@ struct ARViewContainer: UIViewRepresentable {
         // Add Scene
         let planetsAnchor = try! Experience.loadPlanets()
         arView.scene.anchors.append(planetsAnchor)
-        
         return arView
     }
     func updateUIView(_ uiView: ARView, context: Context) {
+        print("-- Updating !!")
     }
 }
 

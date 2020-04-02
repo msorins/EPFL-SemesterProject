@@ -23,5 +23,40 @@
     "libraryIdentifier" : "b6ee915ed01c357965d25f68efed3607",
     "format" : "model",
     "displayName" : "Moon.usdz"
+  },
+  {
+    "libraryIdentifier" : "14695699f35c5752c64492d583510310",
+    "format" : "model",
+    "displayName" : "NASA_CGI_Moon_Kit.usdz"
+  },
+  {
+    "libraryIdentifier" : "eb71ab19cee5ca79ac0a24d5893f7368",
+    "format" : "model",
+    "displayName" : "Moon_-_Giordano_Bruno_Crater.usdz"
+  },
+  {
+    "libraryIdentifier" : "3543445b0b3559484f069342b1df3170",
+    "format" : "model",
+    "displayName" : "Public_Test_Scan_Apollo_10_Capsule.usdz"
+  },
+  {
+    "libraryIdentifier" : "840e476ba3a351483752acfd5fbf8294",
+    "format" : "model",
+    "displayName" : "Bunker.usdz"
+  },
+  {
+    "libraryIdentifier" : "e145428fe7068747b81494ec158b99d9",
+    "format" : "model",
+    "displayName" : "German_Bunker.usdz"
+  },
+  {
+    "libraryIdentifier" : "2a8b0b4258e5d7a0c057c5ef1536a077",
+    "format" : "model",
+    "displayName" : "Kuka-Mimic.usdz"
+  },
+  {
+    "libraryIdentifier" : "a453520c6777dd3db9a8f1d14b0eb24d",
+    "format" : "model",
+    "displayName" : "Robotic_Arm.usdz"
   }
 ]
