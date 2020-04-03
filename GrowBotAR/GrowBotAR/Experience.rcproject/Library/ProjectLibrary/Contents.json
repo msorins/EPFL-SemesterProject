@@ -83,5 +83,15 @@
     "libraryIdentifier" : "a717c0457d93e754de52d3174d669d65",
     "format" : "model",
     "displayName" : "Dirt_ground_texture.usdz"
+  },
+  {
+    "libraryIdentifier" : "da2731c5a60453123aab5c91748b01d5",
+    "format" : "model",
+    "displayName" : "Rocks_and_dirt_patch_4k_poly.usdz"
+  },
+  {
+    "libraryIdentifier" : "6f925329fb4343c8206298ae51fec5c4",
+    "format" : "model",
+    "displayName" : "Rock_Sand_Lowpol17_457face.usdz"
   }
 ]
