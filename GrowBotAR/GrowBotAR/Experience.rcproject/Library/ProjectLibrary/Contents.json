@@ -63,5 +63,25 @@
     "libraryIdentifier" : "2def556ce21caa65ee72510ef35d67ea",
     "format" : "model",
     "displayName" : "Water_prop.usdz"
+  },
+  {
+    "libraryIdentifier" : "75eecaba94f8694a7bdb5d9cdf41a66a",
+    "format" : "model",
+    "displayName" : "Blooming_hibiscus_time-lapse_animation.usdz"
+  },
+  {
+    "libraryIdentifier" : "7ce0d4e6d204bf5c3e51fb2de480217e",
+    "format" : "model",
+    "displayName" : "Tomato_Plant.usdz"
+  },
+  {
+    "libraryIdentifier" : "fb099abb53e4ec0c80ccab7a221597ec",
+    "format" : "model",
+    "displayName" : "Simple_grass_chunks.usdz"
+  },
+  {
+    "libraryIdentifier" : "a717c0457d93e754de52d3174d669d65",
+    "format" : "model",
+    "displayName" : "Dirt_ground_texture.usdz"
   }
 ]
