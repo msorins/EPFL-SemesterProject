@@ -35,12 +35,19 @@ struct ARViewContainer: UIViewRepresentable {
         arView.session.delegate = context.coordinator
         
         // Add Scene
-        let planetsAnchor = try! Experience.loadPlanets()
+        let planetsAnchor = try! Experience.loadPlantGrowing()
         arView.scene.anchors.append(planetsAnchor)
+    
         return arView
     }
     func updateUIView(_ uiView: ARView, context: Context) {
         print("-- Updating !!")
+    }
+    
+    func handleTapOnEntity(_ entity: Entity?) {
+        print("-- handle tap on Entity")
+        guard let entity = entity else { return }
+        // Do something with entity...
     }
 }
 
@@ -58,6 +65,7 @@ class ARViewCoordinator: NSObject, ARSessionDelegate {
     
     func session(_ session: ARSession, didUpdate frame: ARFrame) {
     }
+    
 }
 
 

@@ -58,5 +58,10 @@
     "libraryIdentifier" : "a453520c6777dd3db9a8f1d14b0eb24d",
     "format" : "model",
     "displayName" : "Robotic_Arm.usdz"
+  },
+  {
+    "libraryIdentifier" : "2def556ce21caa65ee72510ef35d67ea",
+    "format" : "model",
+    "displayName" : "Water_prop.usdz"
   }
 ]
