@@ -35,7 +35,7 @@ struct ARViewContainer: UIViewRepresentable {
         arView.session.delegate = context.coordinator
         
         // Add Scene
-        let planetsAnchor = try! Experience.loadPlantGrowing()
+        let planetsAnchor = try! Experience.loadPlanets()
         arView.scene.anchors.append(planetsAnchor)
     
         return arView
